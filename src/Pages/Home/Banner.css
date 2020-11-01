@@ -1,0 +1,82 @@
+body {
+  background-color: #f5efec;
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 80px;
+  font-weight: 800;
+  color: #634749;
+}
+
+h3 {
+  color: #634749;
+  font-family: cursive;
+}
+
+p {
+  color: #634749;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 32px;
+}
+
+.content-banner {
+  display: flex;
+  margin: auto;
+  width: 83%;
+}
+
+.container-one {
+  align-items: flex-end;
+  /* background-color: rgba(0, 0, 0, 0.226); */
+  display: flex;
+  flex-direction: column;
+  padding: 120px 0 0 0;
+  width: 50%;
+}
+
+.inner-container-one {
+  padding-right: 30px;
+}
+
+.container-two {
+  /* background-color: rgba(0, 0, 0, 0.562); */
+  display: flex;
+  justify-content: flex-end;
+  padding: 400px 0 0 0;
+  width: 50%;
+}
+
+.h2-banner {
+  color: #634749;
+  font-family: 'Playfair Display', serif;
+  font-size: 34px;
+  transform: rotate(180deg);
+  text-align: center;
+  writing-mode: vertical-rl;
+}
+
+button {
+  background-color: #634749;
+  border: none;
+  margin-top: 42px;
+  padding: 9px 0;
+}
+
+button:hover {
+  background-color: #805b5d;
+}
+
+.saiba-mais{
+  color: #f5efec;
+  font-family: 'Open Sans';
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 9px 98px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
